@@ -8,12 +8,7 @@ namespace MyBird
         public Transform player;
         [SerializeField] private float offset = 1.5f;
         #endregion
-
-        private void Update()
-        {
-            
-        }
-
+              
         private void LateUpdate()
         {
             FollowPlayer();
